@@ -7,7 +7,7 @@ from time import sleep
 # for files in os.scandir():
 #     if ".py" in files.name:
 #         print(Fore.YELLOW+files.name)
-pool =  string.digits
+pool =  string.digits 
 
 class Tables:
     def __init__(self, square):
@@ -43,5 +43,6 @@ class Tables:
         print(self.table)
         print(str(len(matches))+ " MATCHES")    
 
-table_1 = Tables(10)
+square = int(input("DIME EL LADO: "))
+table_1 = Tables(square)
 table_1.add_content_T()
