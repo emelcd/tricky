@@ -11,3 +11,7 @@ Copy the clipboard and downloads all the videos, extract the audio or keep the v
 ###### classes.py
 
 Learning how to work with classes in python
+
+###### dec_bin.py
+
+Decimal to binary and binary to decimal
