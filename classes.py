@@ -25,13 +25,13 @@ class Tables:
         
     def add_content_T(self):
         # self.generate_T(1)
-        self.table.rows.header = [choice(pool) for i in range(self.rows)]
-        self.table.columns.header = [choice(pool) for i in range(self.columns)]
+        self.table.rows.header = [Fore.LIGHTYELLOW_EX+choice(pool) for i in range(self.rows)]
+        self.table.columns.header = [Fore.LIGHTYELLOW_EX+choice(pool) for i in range(self.columns)]
         # self.table.rows[0] = ["eco"] * self.columns
         matches = []
         # print(self.table)
         a = 0
-        x_match = Fore.RED + "x"
+        x_match = Fore.LIGHTWHITE_EX + "X"
         
         while a<self.columns:
             for i in range(self.columns):
