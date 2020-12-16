@@ -5,7 +5,7 @@ merge = PdfFileMerger()
 
 for i in os.scandir():
     if ".pdf" in i.name:
-        merge(PdfFileReader(i.name))
+        merge.append(PdfFileReader(i.name))
 
 name_pdf = input("\nNombra el PDF ==> ")
 
