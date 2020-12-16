@@ -40,8 +40,9 @@ class Tables:
                     self.table.rows[a][i] = x_match
                     matches.append("1")
             a += 1
-        print(self.table)
+        # print(self.table)
         print(str(len(matches))+ " MATCHES")    
+        print(len(matches)/self.square)
 
 square = int(input("DIME EL LADO: "))
 table_1 = Tables(square)
