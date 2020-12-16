@@ -1,4 +1,4 @@
-**TRICKS FOR *PYTHON***
+## *TRICKS* FOR *PYTHON*
 
 ###### pdf_merge.py
 
