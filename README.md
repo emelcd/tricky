@@ -15,3 +15,7 @@ Learning how to work with classes in python
 ###### dec_bin.py
 
 Decimal to binary and binary to decimal
+
+###### neo.py
+
+Prompt all neofetch distros || *scoop install neofetch*
