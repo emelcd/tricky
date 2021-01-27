@@ -1,12 +1,14 @@
 import os
-from PyPDF2 import PdfFileMerger, PdfFileReader
+from merge_pdf import merge
 
-merge = PdfFileMerger()
+files_list = []
 
 for i in os.scandir():
     if ".pdf" in i.name:
-        merge.append(PdfFileReader(i.name))
+        files_list.append(i.name)
+
 
 name_pdf = input("\nNombra el PDF ==> ")
 
-merge.write(name_pdf)
+
+merge.Merge (name_pdf, replace= True).merge_file_list (files_list)
